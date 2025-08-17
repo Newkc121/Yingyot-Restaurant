@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* ปรับแต่ง navbar */
+.navbar {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar .backward-btn {
+  margin-right: 34em;
+}
+
+.backward-btn {
+  background-color: white;
+  margin: 1rem 1rem 1rem 2rem;
+  padding: 0.5em 1.5rem 0.5em 1.5rem;
+  border-radius: 1rem;
+}
+
+.backward-btn a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
+
+.backward-btn a:hover {
+  font-weight: bold;
+  color: green;
+}
+
+.title {
+}
+.highlight {
+  font-size: 1.5em;
+  color: blue;
+  margin-left: 0.5rem;
+}
+
+/* ปรับแต่ง Table */
+.box-table {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.th-table th {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.3em;
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  opacity: 90%;
+}
+
+.content-list img {
+  width: 15em;
+  height: 10em;
+
+  border-radius: 10px;
+  padding: 0;
+  margin: 15px 15px 5px 10px;
+}
+.content-list tr {
+  text-align: center;
+  background-color: whitesmoke;
+}
+.content-list td {
+  font-size: 1.3rem;
+  color: black;
+  width: 15rem;
+  height: 10rem;
+}
+
+.content-list a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+.content-list a:hover {
+  font-weight: bold;
+  color: #32cd32;
+  font-size: 1.7rem;
+}
+.content-list img:hover {
+  transform: scale(1.05);
+}
+.all-data td {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: orangered;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 0px 0px 0px;
+  opacity: 90%;
+}
